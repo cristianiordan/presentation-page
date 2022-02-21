@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <a class="logo-text" href="#">Iordan Cristian</a>
+      <input type="checkbox" class="navigation-checkbox" id="navi-toggle" />
+      <div class="navigation-mobile">
+        <label for="navi-toggle" class="navigation-button">
+          <span class="navigation-icon">&nbsp;</span>
+        </label>
+      </div>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#history">Short History</a></li>
+          <li><a class="main-nav-link" href="#hobbies">Hobbies</a></li>
+          <li>
+            <a class="main-nav-link" href="#technologies">Known Technologies</a>
+          </li>
+          <li>
+            <a class="main-nav-link nav-cta" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-quote-box">
+            <h1 class="heading-primary">Inspirational quote</h1>
+            <blockquote class="hero-quote-text">
+              "In some ways, programming is like painting. You start with a
+              blank canvas and certain basic raw materials. You use a
+              combination of science, art, and craft to determine what to do
+              with them."
+            </blockquote>
+            <p class="hero-quote-author"><i>-Andrew Hunt</i></p>
+            <a href="https://betterprogramming.pub/101-funny-programmer-quotes-76c7f335b92d" target="_blank" class="hero-cta">Read more quotes</a>
+          </div>
+          <div class="hero-img-box">
+            <img class="hero-img hero-img-1" src="img/hero-1.jfif" alt="" />
+            <img class="hero-img hero-img-2" src="img/hero-2.jpg" alt="" />
+            <img class="hero-img hero-img-3" src="img/hero-3.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section id="history" class="section-history">
+        <div class="container">
+          <span class="subheading">Who am i?</span>
+          <h2 class="heading-secondary">A brief histoty</h2>
+        </div>
+        <div class="container grid-2-cols-1-3">
+          <div class="history-year">1996</div>
+          <div class="history-action">Born</div>
+          <div class="history-year">2015</div>
+          <div class="history-action">Graduated high-school</div>
+          <div class="history-year">2019</div>
+          <div class="history-action">
+            Graduated Naval Arhitecture at 'Universitatea Dunarea de Jos'
+          </div>
+          <div class="history-year">2020</div>
+          <div class="history-action">
+            Graduated Junior Front-End Developer course at CodeCool
+          </div>
+          <div class="history-year">2021</div>
+          <div class="history-action">
+            Landed first job as Front-end Developer
+          </div>
+          <div class="history-year">2022</div>
+          <div class="history-action">Started working at Codezilla</div>
+        </div>
+      </section>
+
+      <section id="hobbies" class="section-hobbies">
+        <div class="container">
+          <span class="subheading">What i like?</span>
+          <h2 class="heading-secondary">My hobbies</h2>
+        </div>
+        <div class="container grid-2-cols">
+          <div class="hobbies-text-box hobbies-text-box-1">
+            <h3 class="heading-tertiary hobbies-heading">Football</h3>
+            <p class="hobbies-text">
+              Football often acts as an escape from our normal life. We may have
+              had a hard week, but we might look forward to that
+              one weekend game the entire week. During those 90 minutes, we forget all our problems
+              and focus on our team's problems.
+            </p>
+          </div>
+          <div class="hobbies-img-box hobbies-img-box-1">
+            <img class="hobbies-img" src="img/football.jpg" alt="" />
+          </div>
+          <div class="hobbies-img-box hobbies-img-box-2">
+            <img class="hobbies-img" src="img/travel.jfif" alt="" />
+          </div>
+          <div class="hobbies-text-box hobbies-text-box-2">
+            <h3 class="heading-tertiary hobbies-heading">Travelling</h3>
+            <p class="hobbies-text">
+              Travelling exposes us to different cultures and through these
+              authentic encounters, we learn to embrace and celebrate both our
+              similarities and our differences. Travelling teaches us about humanity
+              and gives us an appreciation, understanding and respect for
+              different points of view and ways of life.
+            </p>
+          </div>
+          <div class="hobbies-text-box hobbies-text-box-3">
+            <h3 class="heading-tertiary hobbies-heading">Coding</h3>
+            <p class="hobbies-text">
+              You are always learning and challenging yourself! Whether you are
+              learning a new programming language, trying out a new framework,
+              or trying to solve a problem with a new algorithm, you are always
+              stretching your mind.
+            </p>
+          </div>
+          <div class="hobbies-img-box hobbies-img-box-3">
+            <img class="hobbies-img" src="img/coding.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section id="technologies" class="section-technologies">
+        <div class="container container-center">
+          <span class="subheading">What i know?</span>
+          <h2 class="heading-secondary">Technologies learned so far</h2>
+        </div>
+        <div class="container grid-3-cols">
+          <div class="card">
+            <h3 class="heading-tertiary card-heading">
+              <ion-icon class="icon-language" name="logo-html5"></ion-icon
+              ><span>HTML</span>
+            </h3>
+            <p class="card-text">
+              HTML is used to create electronic documents (called pages) that
+              are displayed on the World Wide Web.
+            </p>
+          </div>
+          <div class="card">
+            <h3 class="heading-tertiary card-heading">
+              <ion-icon class="icon-language" name="logo-css3"></ion-icon>
+              <span>CSS</span>
+            </h3>
+            <p class="card-text">
+              Cascading style sheets are used to format the layout of Web pages.
+            </p>
+          </div>
+          <div class="card">
+            <h3 class="heading-tertiary card-heading">
+              <ion-icon class="icon-language" name="logo-javascript"></ion-icon>
+              <span>JavaScript</span>
+            </h3>
+            <p class="card-text">
+              JavaScript is an easy to learn scripting language, widely used for
+              controlling web page behavior.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section-contact">
+        <div class="container container-center">
+          <div class="contact">
+            <div class="contact-text-box">
+              <h3 class="heading-tertiary heading-contact">
+                Let's get in touch!
+              </h3>
+              <p class="contact-text">
+                Do you want to collaborate or send an opinion? Fill in the form!
+              </p>
+              <form action="" class="contact-form">
+                <label for="first-name">First Name</label>
+                <input
+                  type="text"
+                  name="first-name"
+                  id="first-name"
+                  placeholder="John"
+                  required
+                />
+
+                <label for="email">Email address</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="me@example.com"
+                  required
+                />
+
+                <label for="email">Text</label>
+                <textarea name="text" id="text" cols="30" rows="10"></textarea>
+
+                <button class="btn-form">Send</button>
+              </form>
+            </div>
+            <div class="contact-img-box"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
